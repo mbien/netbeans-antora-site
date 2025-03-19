@@ -37,11 +37,9 @@ for important requirements for download pages for Apache projects.
 :netbeans-version: 25
 // TODO            ^^
 
-// TODO base URLs - when archiving, delete the next 2 lines and uncomment the following 2
+// https://infra.apache.org/release-distribution.html#download-links
 :url-download: https://www.apache.org/dyn/closer.lua/netbeans/
-:url-download-keychecksum: https://downloads.apache.org/netbeans/
-// :url-download: https://archive.apache.org/dist/netbeans/
-// :url-download-keychecksum: https://archive.apache.org/dist/netbeans/
+:url-download-keychecksum: https://archive.apache.org/dist/netbeans/
 
 //// 
 url-download depends of release status archived or not
@@ -65,25 +63,30 @@ Apache NetBeans {netbeans-version} is available for download from your closest A
 
 *Binaries (Platform Independent):*
 
-* link:{url-download}netbeans/{netbeans-version}/netbeans-{netbeans-version}-bin.zip[netbeans-{netbeans-version}-bin.zip] (link:{url-download-keychecksum}netbeans/{netbeans-version}/netbeans-{netbeans-version}-bin.zip.sha512[SHA-512],
+* link:{url-download}netbeans/{netbeans-version}/netbeans-{netbeans-version}-bin.zip?action=download[netbeans-{netbeans-version}-bin.zip]
+(link:{url-download-keychecksum}netbeans/{netbeans-version}/netbeans-{netbeans-version}-bin.zip.sha512[SHA-512],
 link:{url-download-keychecksum}netbeans/{netbeans-version}/netbeans-{netbeans-version}-bin.zip.asc[PGP ASC])
 
 *Installers and Packages:*
 
-* link:{url-download}netbeans-installers/{netbeans-version}/Apache-NetBeans-{netbeans-version}-bin-windows-x64.exe[Apache-NetBeans-{netbeans-version}-bin-windows-x64.exe] (link:{url-download-keychecksum}netbeans-installers/{netbeans-version}/Apache-NetBeans-{netbeans-version}-bin-windows-x64.exe.sha512[SHA-512],
+* link:{url-download}netbeans-installers/{netbeans-version}/Apache-NetBeans-{netbeans-version}-bin-windows-x64.exe?action=download[Apache-NetBeans-{netbeans-version}-bin-windows-x64.exe]
+(link:{url-download-keychecksum}netbeans-installers/{netbeans-version}/Apache-NetBeans-{netbeans-version}-bin-windows-x64.exe.sha512[SHA-512],
 link:{url-download-keychecksum}netbeans-installers/{netbeans-version}/Apache-NetBeans-{netbeans-version}-bin-windows-x64.exe.asc[PGP ASC])
-* link:{url-download}netbeans-installers/{netbeans-version}/Apache-NetBeans-{netbeans-version}.pkg[Apache-NetBeans-{netbeans-version}.pkg] (link:{url-download-keychecksum}netbeans-installers/{netbeans-version}/Apache-NetBeans-{netbeans-version}.pkg.sha512[SHA-512],
+* link:{url-download}netbeans-installers/{netbeans-version}/Apache-NetBeans-{netbeans-version}.pkg?action=download[Apache-NetBeans-{netbeans-version}.pkg]
+(link:{url-download-keychecksum}netbeans-installers/{netbeans-version}/Apache-NetBeans-{netbeans-version}.pkg.sha512[SHA-512],
 link:{url-download-keychecksum}netbeans-installers/{netbeans-version}/Apache-NetBeans-{netbeans-version}.pkg.asc[PGP ASC])
-* link:{url-download}netbeans-installers/{netbeans-version}/apache-netbeans_{netbeans-version}-1_all.deb[apache-netbeans_{netbeans-version}-1_all.deb] (link:{url-download-keychecksum}netbeans-installers/{netbeans-version}/apache-netbeans_{netbeans-version}-1_all.deb.sha512[SHA-512],
+* link:{url-download}netbeans-installers/{netbeans-version}/apache-netbeans_{netbeans-version}-1_all.deb?action=download[apache-netbeans_{netbeans-version}-1_all.deb]
+(link:{url-download-keychecksum}netbeans-installers/{netbeans-version}/apache-netbeans_{netbeans-version}-1_all.deb.sha512[SHA-512],
 link:{url-download-keychecksum}netbeans-installers/{netbeans-version}/apache-netbeans_{netbeans-version}-1_all.deb.asc[PGP ASC])
-* link:{url-download}netbeans-installers/{netbeans-version}/apache-netbeans-{netbeans-version}-0.noarch.rpm[apache-netbeans-{netbeans-version}-0.noarch.rpm] (link:{url-download-keychecksum}netbeans-installers/{netbeans-version}/apache-netbeans-{netbeans-version}-0.noarch.rpm.sha512[SHA-512],
+* link:{url-download}netbeans-installers/{netbeans-version}/apache-netbeans-{netbeans-version}-0.noarch.rpm?action=download[apache-netbeans-{netbeans-version}-0.noarch.rpm]
+(link:{url-download-keychecksum}netbeans-installers/{netbeans-version}/apache-netbeans-{netbeans-version}-0.noarch.rpm.sha512[SHA-512],
 link:{url-download-keychecksum}netbeans-installers/{netbeans-version}/apache-netbeans-{netbeans-version}-0.noarch.rpm.asc[PGP ASC])
 * link:https://snapcraft.io/netbeans[Linux snap package]
 
 *Source:*
 
-* link:{url-download}netbeans/{netbeans-version}/netbeans-{netbeans-version}-source.zip[netbeans-{netbeans-version}-source.zip] 
-(link:{url-download-keychecksum}netbeans/{netbeans-version}/netbeans-{netbeans-version}-source.zip.sha512[SHA-512], 
+* link:{url-download}netbeans/{netbeans-version}/netbeans-{netbeans-version}-source.zip?action=download[netbeans-{netbeans-version}-source.zip]
+(link:{url-download-keychecksum}netbeans/{netbeans-version}/netbeans-{netbeans-version}-source.zip.sha512[SHA-512],
 link:{url-download-keychecksum}netbeans/{netbeans-version}/netbeans-{netbeans-version}-source.zip.asc[PGP ASC])
 
 Officially, it is important that you link:https://www.apache.org/dyn/closer.lua#verify[verify the integrity]
